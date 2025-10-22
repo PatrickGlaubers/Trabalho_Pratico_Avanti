@@ -2,7 +2,7 @@ import'../../pages/login-page/login-page'
 import '../../pages/funcionario-page/funcionario-page'
 import { faker } from '@faker-js/faker';
 
-describe('Cadastrar funcionário 03', () => {
+describe('Cadastrar funcionário - Cenário 03', () => {
 
   beforeEach(() => {
     cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
@@ -25,7 +25,7 @@ describe('Cadastrar funcionário 03', () => {
     cy.clickPim();
     cy.typeIdSearch(id);
     cy.clickSearchEmployee();
-
+    
     cy.get('.oxd-table-cell.oxd-padding-cell').contains(id).should('be.visible');
   });
 
@@ -42,9 +42,9 @@ describe('Cadastrar funcionário 03', () => {
     
   });
 
-  it.only('CT16 - Validar cadastro com ID de Funcionário já existente', () => {
+  it('CT16 - Validar cadastro com ID de Funcionário já existente', () => {
     var id = faker.string.numeric(4);
-    //Cadastro do primeiro funcionário
+   
     cy.clickPim();
     cy.clickAddEmployee();
     cy.typeFirstNameEmployee(faker.person.firstName());

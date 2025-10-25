@@ -4,7 +4,6 @@
 Alex Duarte da silva <br>
 Ana Vitória Rezende Costa  <br>
 Gabriel Allan Felix de Mesquita Lima  <br>
-Márcio Garcia Dutra Borges  <br>
 Patrick Glauber Oliveira Da Silva  <br>
 </h2>
 

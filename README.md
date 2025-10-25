@@ -1,4 +1,4 @@
-<h1>Squad 04 - Os incontestáveis</h1>
+<h1>Squad 04 - Incontestáveis</h1>
 
 <h2>Participantes:  <br>
 Alex Duarte da silva <br>

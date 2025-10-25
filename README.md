@@ -6,7 +6,6 @@ Ana Vitória Rezende Costa  <br>
 Gabriel Allan Felix de Mesquita Lima  <br>
 Márcio Garcia Dutra Borges  <br>
 Patrick Glauber Oliveira Da Silva  <br>
-Willian Gabriel da Cunha Oliveira  <br>
 </h2>
 
 <h2>Sistema testado: Orange HRM  <br>
